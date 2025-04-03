@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    background-color: #FFFFFF;
+    font-family: "Poppins", serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a {
+    text-decoration: none; 
+    color: inherit;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo{
+    font-family: "Damion", cursive;
+    font-style:normal;
+    font-size: 48px; 
+    margin-bottom: 12px; 
+}
+
+/*lado esquerdo - card login */
+.card {
+    padding: 16px; 
+    background-color: #FFFFFF;
+    width: 280px; 
+}
+
+input {
+    font-family: "Poppins", serif;
+    margin-top: 1px;
+    margin-bottom: 16px; 
+    padding: 8px;
+    width: 100%;
+    border: 0px;
+    background-color: #ECECEC;
+    border-radius: 5px;
+}
+
+.input-grupo {
+    text-align: left; 
+    font-size: 12px; 
+}
+
+#esqueceu-a-senha {
+    display: block;
+    text-align: right;
+    font-size: 10px; 
+    margin-top: -16px; 
+}
+
+button {
+    font-family: "Poppins", serif;
+    margin-top: 20px; 
+    padding: 8px; 
+    width: 130px; 
+    border: none;
+    border-radius: 16px; 
+    background-color: #ECB9F9;
+    color: #fefefe;
+    font-size: 12px; 
+    cursor: pointer;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 24px; 
+}
+
+/*quando o botao for clicado*/
+button:hover {
+    background-color: #C68CE0;
+}
+
+.divisor {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 16px 0; 
+}
+
+.linha {
+    height: 1px;
+    background-color: #DBDBDB;
+    flex-grow: 1; /* faz a linha crescer e ocupar o espaço disponível */
+}
+
+.divisor span {
+    margin: 0 8px; /* dá uma margem acima e em baixo do contêiner */
+    font-size: 10px; 
+    color: #969696;
+}
+
+#mensagem-cadastro {
+    font-size: 10px; 
+    text-align: center; 
+    margin-top: 14px; 
+    color: #545454; 
+}
+
+/*lado direito*/
+.preview {
+    display: flex;
+    align-items: center;
+}
+
+.preview img {
+    margin-left: 70px; 
+    width: 410px; 
+    object-fit: cover; /* mantém a proporção da imagem do preview*/
+    margin-bottom: 40px;
+}
+
+.link{
+    color: #080096;
+}
+
+
