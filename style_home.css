@@ -16,27 +16,25 @@ body{
 .cabecalho {
     margin-top: 30px;
     display: flex;
-    align-items: center; 
-    justify-content: space-between; 
-    width: 100%; 
-    padding: 10px 20px; 
-    gap: 30px;
+    align-items: center;
+    gap: 10px; 
+    margin-bottom: 10px;    
 }
 
 #foto-perfil img {
-    width: 70px; 
-    height: 70px;
+    width: 50px; 
+    height: 50px;
     border-radius: 50%; 
 }
 
 #mensagem {
     background-color: #F7F7F7;
-    font-size: 12px;
-    padding: 8px 15px;
+    font-size: 10px;
+    padding: 7px 13px;
     border-radius: 8px; 
     display: flex; 
     justify-content: flex-start; 
-    width: 350px;
+    width: 330px;
 }
 
 .mensagem p{
@@ -46,7 +44,7 @@ body{
 
 #botao-adicionar-publicacao img {
     margin-top: 5px;
-    width: 32px; 
+    width: 25px; 
     cursor: pointer;
 }
 
@@ -54,12 +52,99 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 16px 0; 
+    margin: 15px 0; 
+    margin-bottom: 5px;
 }
 
 .linha {
-    margin-top: 10px;
+    margin-top: 8px;
     height: 1px;
     background-color: #DBDBDB;
-    flex-grow: 0.8; 
+    flex-grow: 0.9; 
+}
+
+.post {
+    background-color: white;
+    width: 400px;
+    margin: 0 auto;
+    padding: 15px;
+  }
+  
+  .cabecalho_post {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  
+  .avatar {
+    width: 50px;
+    height: 50px;
+    background-color: #ddd;
+    border-radius: 50%;
+    margin-right: 15px;
+  }
+  
+  .info .username {
+    font-weight: bold;
+    margin: 0;
+    font-size: 12px;
+  }
+  
+  .info .local {
+    font-size: 10px;
+    color: #616161;
+    margin: 0;
+  }
+  
+  .imagem-post {
+    width: 360px;
+    height: 320px;
+    background-color: #D9D9D9;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+
+  
+
+  .descricao{
+    font-size: 10px;
+    color: #191919;
+    margin-left: 8px;
+    margin-bottom: 10px;
+  }
+  
+  .acoes {
+    display: flex;
+    gap: 10px;
+    padding: 0 8px;
+  }
+  
+  .icone {
+    cursor: pointer;
+  }
+
+  .heart{
+    width: 20px;
+    height: 20px;
+  }
+
+  #chat{
+    margin-top: -2px;
+    width: 24px;
+    height: 24px;
+  }
+
+  .divisor_post {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 15px 0; 
+    margin-bottom: 5px;
+}
+
+.linha_post {
+    margin-top: 8px;
+    height: 1px;
+    background-color: #DBDBDB;
+    flex-grow: 1; 
 }
