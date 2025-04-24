@@ -55,6 +55,7 @@ async function login() {
                 // salva o id 
                 localStorage.setItem('idUser', usuarioLogado.id)
                 console.log('id do usuário salvo no localstorage:', usuarioLogado.id)
+                window.location.href = 'home.html'
             } else {
                 // Caso não encontre o usuário na lista
                 console.warn('Usuário não encontrado na lista!')
